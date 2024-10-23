@@ -4,6 +4,7 @@ import java.util.ArrayList;
 
 import javax.swing.JOptionPane;
 
+@MappedSuperclass
 public abstract class Cadastro {
     String nome;
     String cpf;

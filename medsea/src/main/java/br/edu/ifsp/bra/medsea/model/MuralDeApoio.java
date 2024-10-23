@@ -1,17 +1,9 @@
 package br.edu.ifsp.bra.medsea.model;
 
-import javax.swing.JOptionPane;
 
 public class MuralDeApoio {
     String tituloComentario;
     String conteudoComentario;
-    
-
-    MuralDeApoio(){
-        this.tituloComentario = JOptionPane.showInputDialog("Digite o título do comentário que irá escrever: ");
-        this.conteudoComentario = JOptionPane.showInputDialog("Digite o seu comentário: ");
-    }
-
 
     public String getTituloComentario() {
         return tituloComentario;

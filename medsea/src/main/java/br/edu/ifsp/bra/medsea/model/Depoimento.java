@@ -1,16 +1,21 @@
 package br.edu.ifsp.bra.medsea.model;
 
-import javax.swing.JOptionPane;
-
 public class Depoimento {
     String tituloDepoimento;
     String conteudoDepoimento;
     
 
     Depoimento(){
-        this.tituloDepoimento = JOptionPane.showInputDialog("Digite o título do seu depoimento: ");
-        this.conteudoDepoimento = JOptionPane.showInputDialog("Digite o seu depoimento: ");
+        // this.tituloDepoimento = JOptionPane.showInputDialog("Digite o título do seu depoimento: ");
+        // this.conteudoDepoimento = JOptionPane.showInputDialog("Digite o seu depoimento: ");
     }
+
+
+    public Depoimento(String tituloDepoimento, String conteudoDepoimento) {
+        this.tituloDepoimento = tituloDepoimento;
+        this.conteudoDepoimento = conteudoDepoimento;
+    }
+
 
 
     public String getTituloDepoimento() {
